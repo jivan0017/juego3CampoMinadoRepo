@@ -1,0 +1,80 @@
+<!-- COMPATIBILIDAD HTML 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CONFIGURAR LA CODIFICACION-->
+	<meta charset="utf-8" />
+	<title>My title</title>
+		<!-- LLAMADO A LA FUNCION JAVA SCRIPT-->
+	<script type="text/javascript" src="js/CampoMinadoController.js">
+	</script>
+
+	<!-- LLAMADO AL ESTILO DE LA APLICACION WEB -->		
+	<link rel="stylesheet" type="text/css" href="css/styleCampoMinado.css">
+
+</head>
+<!-- CUERPO DEL DOCUMENTO -->
+<body>
+ <header>
+ 	<nav id="BoxMenuOperations">
+ 		<div>
+ 			<h2>Menu Campo Minado</h2>
+ 		</div>
+
+ 		<ul>
+			<div id="BoxItemMenuJugar">
+				<li>
+					<a href="#" onclick="generarMatriz();">Generar Matriz 3 X 3, elementos aleatorios [MINAS]</a>
+				</li>
+			</div>
+		    <div id="BoxItemMenuReiniciar">
+				<li>
+					<a href="#" onclick="capturarOpcionUsuarioPorPosicionXY();">Ingresar coordenadas para hallar Mina o punto neutro [SIN MINA]</a>
+				</li>
+			</div> 		
+ 		</ul> 
+ 	</nav>
+ </header>
+ <nav>
+ 	<h2>Campo minado con algo de estilos CSS ::
+ 	</h2>
+ </nav>
+
+ <!--  SECCION ::   HTML5 -->
+ <SECTION>
+ 	<hgroup>
+ 	<h1></h1>
+ 	</hgroup>
+
+ 	<div id="BoxContainer">
+	 	 <div id="BoxMenuCentral" >
+	 		<h2>Batalla Campo Minado v 1.0</h2> 		 	
+	 		<p id="fila1">FILA1</p><br>
+	 		<p id="fila2">FILA2</p><br>
+	 		<p id="fila3">FILA3</p></br>
+	 	</div>
+
+	 	<p id="resultado"></p>
+ 	</div>
+
+
+ 	<!-- articulo dentro de la seccion -->
+ 	<article>
+ 		<p></p>
+ 	</article>
+
+ </SECTION>
+
+
+  <!-- LLAMADO A FUNCION RAIZ DE DOCUMENTO HACIA EL ARTEFACTO .JS -->
+<script type="text/javascript">
+	funcionVoidMain(0);
+</script>	
+
+</body>
+
+
+
+
+
+</html>
